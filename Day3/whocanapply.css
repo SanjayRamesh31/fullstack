@@ -1,0 +1,45 @@
+.bank-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.bank-header {
+  color: #1a73e8;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.bank-paragraph {
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.bank-list {
+  list-style-type: none;
+  color: #555;
+  padding-left: 0;
+}
+
+.bank-list-item {
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bank-list-item:hover {
+  background-color: #e0f0ff;
+}
+
+/* Optional: Add hover effect for better interactivity */
+.bank-container:hover {
+  transform: translateY(-3px);
+  transition: transform 0.3s ease-in-out;
+}
